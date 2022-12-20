@@ -1,0 +1,9 @@
+body{
+    background-color: gray;
+}
+.list-1 {
+    list-style: circle;
+}
+.list-2 {
+    list-style: square;
+}
