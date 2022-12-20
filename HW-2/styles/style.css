@@ -1,5 +1,5 @@
 div { 
-    width: 950px;
+    width: 750px;
     margin: 50px;
 }
 header { 
@@ -40,4 +40,15 @@ h2 {
 }
 ul { 
     margin-top: 0;
+}
+.all-content { 
+    background-color: white;
+    height: 1350px;
+    width: 800px;
+    left: 25%;
+    top: 10%;
+    border: 2px solid gainsboro;
+    box-shadow: 4px 4px 5px 0px rgba(163,157,163,1);
+    padding: 60px;
+    margin: auto;
 }
