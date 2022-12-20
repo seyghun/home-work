@@ -1,0 +1,43 @@
+div { 
+    width: 950px;
+    margin: 50px;
+}
+header { 
+    margin: 50px;
+}
+.line { 
+    height: 3px;
+    background: #bd0d0d;
+    border-color: #bd0d0d;
+}
+.qatar-wc {
+    height: 350px;
+    width: 600px;
+}
+.argentina-team { 
+    height: 350px;
+    width: 600px;
+    margin-bottom: 0;
+}
+.winners-list {
+    list-style: square;
+}
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    color: #8f0a0a;
+}
+.winners {
+    margin-top: 0;
+}
+.wc-w { 
+    margin-top: 0;
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ul { 
+    margin-top: 0;
+}
