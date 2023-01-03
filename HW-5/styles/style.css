@@ -1,0 +1,165 @@
+* {
+    font-family: 'Lato';
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+}
+
+h2 {
+    color: bisque;
+}
+
+.table-f {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.table-f,
+tr {
+    border: 1px solid rgb(64, 64, 64);
+    border-collapse: collapse;
+
+    border-radius: 5px;
+}
+
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgb(247, 247, 247);
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+
+.ellipsis {
+    color: rgb(95, 95, 95);
+    padding-right: 15px;
+}
+
+.name {
+    font-size: 13px;
+    width: 250px;
+    height: 32px;
+    text-align: left;
+    padding-left: 17px;
+    padding-bottom: 2px;
+    color: rgb(210, 210, 210);
+}
+
+.date {
+    font-size: 13px;
+    width: 130px;
+    height: 32px;
+    text-align: left;
+    padding-left: 17px;
+    padding-bottom: 2px;
+    color: rgb(210, 210, 210);
+}
+
+.first-data {
+    font-size: 13px;
+    width: 250px;
+    height: 35px;
+    text-align: left;
+    padding-left: 17px;
+    color: rgb(210, 210, 210);
+}
+
+.second-data {
+    font-size: 13px;
+    width: 250px;
+    height: 35px;
+    text-align: left;
+    padding-left: 17px;
+    color: rgb(85, 85, 85);
+}
+
+.table-s {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.table-s,
+tr {
+    border: 1px solid rgb(64, 64, 64);
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+.table-t {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.table-t,
+tr {
+    border: 1px solid rgb(64, 64, 64);
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+.first-data-i {
+    color: rgb(66, 139, 195);
+    padding-right: 7px;
+    padding-left: 5px;
+}
+
+.first-data-ch {
+    margin-right: 10px;
+}
+
+.search {
+    background-color: rgb(68, 68, 68);
+    width: 147px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-s {
+    color: rgb(128, 128, 128);
+    margin-left: 8px;
+}
+
+.second-data-t {
+    font-size: 13px;
+    width: 30px;
+    height: 35px;
+    text-align: left;
+    padding-left: 17px;
+    color: rgb(85, 85, 85);
+}
+
+.ellipsis-s {
+    color: rgb(210, 210, 210);
+    padding-right: 15px;
+}
+
+.ellipsis-t {
+    color: rgb(210, 210, 210);
+    padding-left: 120px;
+}
+
+#search-w {
+    background-color: rgb(68, 68, 68);
+    border: 0;
+    width: 115px;
+    height: 20px;
+    color: lightgrey;
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+.search-div {
+    height: 30px;
+    width: 150px;
+}
