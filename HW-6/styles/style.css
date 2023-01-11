@@ -12,6 +12,8 @@ body {
     height: 400vh;
     background: rgb(248, 251, 253);
     margin-top: 140px;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -176,6 +178,7 @@ li a {
     margin-top: 230px;
     padding-right: 90px;
     justify-content: space-between;
+    margin-left: 61.5px;
 }
 
 .image-sec {
