@@ -23,6 +23,7 @@ h2 {
     display: inline-block;
     margin-left: 10px;
     margin-bottom: 1px;
+    cursor: pointer;
 }
 
 .ellipsis {
@@ -70,30 +71,26 @@ h2 {
 
 .table-s {
     display: inline-flex;
-    margin-left: 50px;
-    margin-top: 40px;
 }
 
-.table-s,
+/* .table-s, 
 tr {
     border: 1px solid rgb(64, 64, 64);
     border-collapse: collapse;
     border-radius: 5px;
 }
-
+*/
 .table-t {
     display: inline-flex;
-    margin-left: 50px;
-    margin-top: 40px;
 }
 
-.table-t,
+/* .table-t,
 tr {
     border: 1px solid rgb(64, 64, 64);
     border-collapse: collapse;
     border-radius: 5px;
 }
-
+ */
 .first-data-i {
     color: rgb(66, 139, 195);
     padding-right: 7px;
@@ -156,14 +153,38 @@ tr {
 .table-f-border {
     border: 1px solid rgb(64, 64, 64);
     border-radius: 5px;
-    width: 567.6px;
+    width: 565px;
     margin-left: 49px;
 }
 
 .tr-border {
-    border: 1px solid rgb(64, 64, 64);
+    border-bottom: 1px solid rgb(64, 64, 64);
+
 }
 
 input {
     outline: none;
+}
+
+.table-f,
+tr {
+    border-collapse: collapse;
+}
+
+.table-s,
+tr {
+    border-collapse: collapse;
+}
+
+.table-t,
+tr {
+    border-collapse: collapse;
+}
+
+input {
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
 }
