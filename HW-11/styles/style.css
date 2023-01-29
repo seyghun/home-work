@@ -1,0 +1,228 @@
+:root {
+    --outer-shadow-green:
+
+        0 0 0.4vw 0.6vw green,
+        0 0 2vw 1vw green;
+
+    --outer-shadow-blue:
+
+        0 0 0.4vw 0.6vw blue,
+        0 0 2vw 1vw blue;
+
+    --outer-shadow-red:
+
+        0 0 0.4vw 0.6vw red,
+        0 0 2vw 1vw red;
+}
+
+.swords {
+    background: url(../images/starry_background.png);
+    margin: 0 auto;
+    height: 420px;
+    width: 560px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cradle {
+
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 250px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-sword {
+    width: 350px;
+    height: 25px;
+    position: absolute;
+    background-color: gray;
+    border: 2px solid #e0f7fa;
+    transition: box-shadow 0.3s;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+    top: 22%;
+
+}
+
+@keyframes green-none {
+    from {
+        top: 22%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    to {
+        top: 24%;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes blue-rotate {
+    from {
+        transform: rotate(0deg);
+        top: 30%;
+    }
+
+    to {
+        transform: rotate(50deg);
+        top: 38%;
+    }
+
+}
+
+@keyframes red-rotate {
+    100% {
+        transform: rotate(-50deg);
+    }
+}
+
+.blue-sword {
+    width: 350px;
+    height: 25px;
+    position: absolute;
+    background-color: gray;
+    border: 2px solid #e0f7fa;
+    transition: box-shadow 0.3s;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    top: 30%;
+    z-index: 1;
+}
+
+.red-sword {
+    width: 350px;
+    height: 25px;
+    position: absolute;
+    background-color: gray;
+    border: 2px solid #e0f7fa;
+    transition: box-shadow 0.3s;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+    top: 38%;
+    z-index: 2;
+}
+
+.handle {
+    width: 50px;
+    height: 25px;
+    background: black;
+    margin-left: 10px;
+}
+
+.handle-blue {
+    width: 50px;
+    height: 25px;
+    background: black;
+    margin-right: 10px;
+}
+
+.wrapper {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper:hover>.green-sword {
+    box-shadow: var(--outer-shadow-green);
+    animation: green-none 1s forwards;
+}
+
+.wrapper:hover>.blue-sword {
+    box-shadow: var(--outer-shadow-blue);
+    animation: blue-rotate 2s forwards;
+}
+
+.wrapper:hover>.red-sword {
+    box-shadow: var(--outer-shadow-red);
+    animation: red-rotate 2s forwards;
+}
+
+@keyframes left-arm {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(60deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes right-arm {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-60deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.cradle div {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: gray;
+    margin-top: 70px;
+    position: relative;
+    transform-origin: 50% -200%;
+}
+
+.cradle div:first-child {
+    background: #2c3ef4;
+    animation: left-arm 2.5s linear infinite forwards;
+}
+
+.cradle div:nth-child(2) {
+    background: rgb(44, 62, 244);
+    background: linear-gradient(90deg, rgba(44, 62, 244, 1) 0%, rgba(85, 210, 182, 1) 95%);
+}
+
+.cradle div:nth-child(3) {
+    background: #55d2b6;
+}
+
+.cradle div:nth-child(4) {
+    background: #51c6a9;
+}
+
+.cradle div:nth-child(5) {
+    background: #42a9a8;
+}
+
+.cradle div:nth-child(6) {
+    background: #3b9695;
+}
+
+.cradle div:last-child {
+    background: #348486;
+    animation: right-arm 2.5s linear infinite forwards;
+}
