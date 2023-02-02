@@ -1,0 +1,266 @@
+body {
+    height: 175vh !important;
+}
+
+header {
+    max-width: 969px !important;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 !important;
+}
+
+.row {
+    max-width: 969px !important;
+}
+
+.search {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.search img {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.search-t {
+    height: 25px;
+    width: 83%;
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: #8F8F8F;
+    outline: none;
+    cursor: pointer;
+    background: #FAFAFA;
+    transition: all 1s ease-out;
+
+}
+
+.search:hover {
+    border: 2px solid #4094EF;
+}
+
+
+#avatar-mini {
+    width: 22px;
+    height: 22px;
+    background: #4094EF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.gr-line {
+    background: #DBDBDB;
+    height: 1px;
+    max-width: 100% !important;
+}
+
+.container {
+    max-width: 945px;
+}
+
+.main-container {
+    height: 550px;
+}
+
+
+.f-acc-block h2 {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #262626;
+}
+
+.follow-btn {
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    background: #4094EF;
+    padding: 0%;
+    font-family: 'Helvetica Neue';
+}
+
+.arrow-btn {
+    width: 35px;
+    height: 30px;
+    background: #4094EF;
+    border-radius: 3px;
+}
+
+.arrow-btn img {
+    height: 12px;
+    width: 8px;
+
+}
+
+.dots-ico {
+    height: 30px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+
+.statistic {
+    display: flex;
+    gap: 40px;
+    font-size: 17px;
+    line-height: 21px;
+    margin-top: 20px;
+}
+
+.statistic b {
+    margin-right: 5px;
+}
+
+.profile-text-box h2 {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #262626;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.profile-text-box p {
+    margin: 0;
+    width: 531px;
+    height: 51px;
+    color: #262626;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.profile-text-box a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 21px;
+    font-family: 'Helvetica Neue';
+    color: #133768;
+}
+
+.storie-block {
+    height: 95px;
+    width: 79px;
+}
+
+.storie-block h2 {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262626;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.upper-block {
+    height: 320px !important;
+}
+
+.stories {
+    max-width: 969px;
+    height: 150px;
+}
+
+.photo-nav {
+    width: 270px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo-nav button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: min-content;
+}
+
+.photo-nav img {
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+    margin-bottom: 4px;
+}
+
+.photo-nav p {
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.gallery-hiden {
+    display: none;
+}
+
+.gallery-active {
+    border-top: 1px #262626 solid;
+}
+
+#posts-btn:hover {
+    background: transparent;
+}
+
+#posts-btn {
+    background: #FAFAFA;
+}
+
+#tagged-btn {
+    background: #FAFAFA;
+}
+
+#tagged-btn:hover {
+    background: transparent;
+}
+
+.second-gr-line {
+    height: 1.1032px;
+    background: #DBDBDB;
+    position: absolute;
+    width: 969px;
+    top: 74.5%;
+    z-index: -1;
+}
+
+.posts-photo,
+.tagged-photo,
+.dots-ico img,
+.icons img {
+    cursor: pointer;
+}
