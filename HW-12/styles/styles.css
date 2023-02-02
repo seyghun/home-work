@@ -261,6 +261,7 @@ header {
 .posts-photo,
 .tagged-photo,
 .dots-ico img,
-.icons img {
+.icons img,
+.storie-block img {
     cursor: pointer;
 }
