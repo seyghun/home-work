@@ -1,5 +1,7 @@
 html {
   overflow-x: hidden;
+  margin-right: 0;
+  overflow-y: scroll;
 }
 
 header img {
@@ -145,8 +147,8 @@ header button:hover:before {
 .main-box img {
   position: absolute;
   z-index: -1;
-  top: -15%;
-  right: -27%;
+  top: -10%;
+  right: -26%;
   opacity: 0.9;
 }
 
@@ -164,6 +166,7 @@ header button:hover:before {
 }
 .second-section .textbox-part-1 {
   width: 55%;
+  margin-left: 7%;
 }
 .second-section .img-part-1 {
   width: 45%;
@@ -249,9 +252,13 @@ header button:hover:before {
 }
 
 .fourth-part {
-  padding-top: 20rem;
+  margin-top: 15rem !important;
+  padding-top: 5rem;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 8rem;
+  background-color: #f3f6ff;
+  width: 100%;
 }
 .fourth-part p:nth-child(2) {
   white-space: pre-line;
@@ -262,14 +269,6 @@ header button:hover:before {
   line-height: 1.625rem;
   text-align: center;
   color: #6F7CB2;
-}
-.fourth-part img {
-  position: absolute;
-  width: 120%;
-  height: 800px;
-  margin-top: -35%;
-  margin-left: -70%;
-  z-index: -1;
 }
 .fourth-part h2 {
   font-family: "Roboto", sans-serif;
@@ -344,6 +343,7 @@ footer p {
   font-size: 0.875rem;
   line-height: 1.5rem;
   color: #939EA4;
+  margin-left: 2rem;
 }
 footer .main-button {
   width: 6.813rem;
@@ -354,9 +354,7 @@ footer .main-button {
   font-size: 0.75rem;
   line-height: 1.125rem;
   margin: 0;
-}
-footer .footer-up-box {
-  margin-top: 9rem;
+  margin-left: 17rem;
 }
 footer .foot-line {
   background: #CDD1D4;
@@ -367,7 +365,7 @@ footer .foot-line {
   margin-left: 15.8rem;
 }
 footer .footer-logo img {
-  margin-left: 8.5rem;
+  margin-left: 10rem;
   cursor: pointer;
   transition: 0.5s;
   padding-top: 0;
@@ -416,6 +414,10 @@ footer .messangers-links .images img:hover {
 }
 
 @media screen and (max-width: 576px) {
+  html {
+    margin-right: 0;
+    overflow-x: hidden;
+  }
   header button {
     margin-right: 0;
   }
@@ -487,10 +489,17 @@ footer .messangers-links .images img:hover {
     text-align: center;
     margin-top: 5rem;
   }
-  .fourth-part img {
-    margin-top: -190%;
-    margin-left: -90%;
-    height: 900px;
+  .fourth-part {
+    margin-top: 8rem !important;
+  }
+  .other-block-margin {
+    margin-top: 5rem !important;
+  }
+  footer .footer-up-box {
+    margin-top: 0;
+  }
+  footer p {
+    margin-left: 8%;
   }
   footer .foot-line {
     margin: 0;
@@ -498,7 +507,10 @@ footer .messangers-links .images img:hover {
     width: 100%;
   }
   footer .footer-logo img {
-    margin-left: 0;
+    margin-left: 8%;
+  }
+  footer .main-button {
+    margin-left: 10%;
   }
   footer .messangers-links {
     margin: 0;
@@ -509,7 +521,7 @@ footer .messangers-links .images img:hover {
   }
   footer .messangers-links .links {
     margin: 0 auto;
-    margin-left: 18%;
+    margin-left: 20%;
     margin-bottom: 1.5rem;
     margin-top: 1rem;
   }
