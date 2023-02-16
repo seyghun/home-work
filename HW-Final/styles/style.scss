@@ -199,6 +199,7 @@ body {
     .third-section_content-box {
         margin-top: 120px;
         margin-left: 220px;
+        width: 60%;
     }
 
     .short-title {
@@ -265,7 +266,7 @@ body {
 
     .fourth-section_content-box {
         margin-top: 70px;
-        padding-left: 250px;
+        padding-left: 200px;
         white-space: pre-line;
         width: 60%;
 
@@ -312,7 +313,7 @@ body {
     h2:nth-child(4) {
         position: absolute;
         z-index: 0;
-        margin-top: -455px;
+        margin-top: -480px;
         margin-left: -195px;
         font-family: $main-font;
         color: $background-numbers-color;
@@ -574,7 +575,7 @@ footer {
         }
 
         .second-section_content-box {
-            padding: 0 0 0 75px;
+            padding: 0 0 0 60px;
             margin: 0 auto;
         }
 
@@ -609,7 +610,7 @@ footer {
         padding-top: 100px;
 
         .third-section_content-box {
-            padding: 0;
+            padding: 0 0 0 60px;
             margin: 0 auto;
         }
 
@@ -644,7 +645,7 @@ footer {
         }
 
         .fourth-section_content-box {
-            padding: 50px 0 0 80px;
+            padding: 50px 0 0 60px;
             margin: 0 auto;
         }
 
@@ -778,6 +779,7 @@ footer {
     .third-section {
         .third-section_content-box {
             width: 60%;
+            padding: 0;
         }
 
         .responsive-place {
